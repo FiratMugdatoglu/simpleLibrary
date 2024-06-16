@@ -1,0 +1,14 @@
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		JFrame f = new JFrame("Buton Örneği");
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+
+	}
+
+}

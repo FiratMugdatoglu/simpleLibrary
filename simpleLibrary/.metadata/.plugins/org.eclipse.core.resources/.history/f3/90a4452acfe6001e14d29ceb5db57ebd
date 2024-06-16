@@ -1,0 +1,23 @@
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		JFrame f = new JFrame("TextField Örneği");
+		JTextField t = new JTextField();
+		t.setBounds(0, 0, 200, 30);
+
+		f.add(t);
+		f.setSize(400, 400);
+		f.setLayout(null);
+		f.setVisible(true);
+
+	}
+
+}
